@@ -10,7 +10,7 @@ export class HeroDetailComponent {
   @Input() hero?: Hero
   constructor(private heroService: HeroService) {}
   goBack(): void {
-    this.location.back();
+   
   }
   save(): void{
     if (this.hero){
